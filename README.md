@@ -180,8 +180,6 @@ As a slghtly cheaper alternitive to Google's API's, while still providing relati
 
 Due to the time constraints of the project, there are still several things that should/would be nice to do
 
-### Testing
-
 1. Implement Vitest/Testing Library. 
 While testing was planned, there was no chance to implement it. Additionally, a heavy amount of component clean-up can still be done, which would heavily benefit testing later.
 
