@@ -162,6 +162,10 @@ Please use the following pattern to name the test ids: `module-componentOrView-h
 
 NextJS (https://nextjs.org/), with Typescript, was chosen as an attempt to both become more familiar with a popular React flavor, as well as for its routing (if the project is expanded on later) and strong documentation. 
 
+### TanStack Query:
+
+A multiframework TS/JS async state manager, TanStack Query (https://tanstack.com/query/latest) is quite useful in any context where users need to make regular queries, but especially so in the context of interfacing with services like Foursquare (pr Google, etc.) where each query has a clear and static cost. Here, caching data that users might feasibly return to in a short time could save quite a bit of cost, not to mention reducing response times by not requiring a fresh pull per inquery.
+
 ### Tailwind:
 
 Tailwind (https://tailwindcss.com/), a CSS framework, while likely not entirely encessary for a project of this size, was also used for the sake of testing it in a real project. Additionally, it was used to help enforce styling standards throughout the app.
@@ -173,7 +177,7 @@ Aside from the wide support of the library, it being open source was criticaly h
 
 ### Foursquare
 
-As a slghtly cheaper alternitive to Google's API's, while still providing relatively good information, this app makes heavy use of Foursquare's  place API (https://docs.foursquare.com/developer/reference/place-search).
+As a slghtly cheaper alternative to Google's API's, while still providing relatively good information, this API makes heavy use of Foursquare's  place API (https://docs.foursquare.com/developer/reference/place-search).
 
 
 ## TODO's
@@ -188,9 +192,11 @@ There is still a fair amount of condensing that could be done in the existing co
 
 3. Add additional features.
 While searching works fairly well and also allows some freedom on location, functionality could be added. E.g.
-  a. Expanding the usage of Foursquare's API's, especially the user-based and crowd-sourcing functionality
-  b. Adding some form of coupon tie-in to give users more choice insentives and rewards
-  c. Add some form of monetization, e.g. via (transparent) result weighting
+  a. Add additional languages using i18n and translations
+  b. Implement layouts for mobile
+  c. Expanding the usage of Foursquare's API's, especially the user-based and crowd-sourcing functionality
+  d. Adding some form of coupon tie-in to give users more choice insentives and rewards
+  e. Add some form of monetization, e.g. via (transparent) result weighting
 
 4. Bugs
 While the project generally seems to work well without much issue or visual oddity, there are still some things related to Tailwind and React/NextJS that I don't sem to udnerstand, but would like to work through (tailwind styles applying unevenly to components in 3rd-level subdirectories, env variables not being picked up properly)

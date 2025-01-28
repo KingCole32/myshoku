@@ -17,9 +17,10 @@ const TheNavigation = () => {
 
         {/* right side (function area) */}
         <span className="flex items-center justify-center">
-          <button>
+          {/* enable when i18n is added */}
+          {/* <button>
             <BaseIcon size="30" name="globe" color="white"/>
-          </button>
+          </button> */}
 
           {/* enable once there are options to edit */}
           {/* <button>
