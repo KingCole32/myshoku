@@ -13,7 +13,7 @@ Currently only the base link to the home page
 
 | View          | Pattern                                                   | Link                                                |
 | ------------- | --------------------------------------------------------- | --------------------------------------------------- |
-| Homw          | `/home/`                                                  | http://localhost:{port}/home                        |
+| Home          | `/home/`                                                  | http://localhost:{port}/home                        |
 
 
 ## Development
