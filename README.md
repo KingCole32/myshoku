@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 # myshoku
 
-> MyShoku was created as to give quick and simple information, including geolocation, regarding eateries in the local area, either based around the Cognet Lab home office or the user's own location.
+> MyShoku was created to give quick and simple information, including geolocation, regarding eateries in the local area, either based around the Cognet Lab home office or the user's own location.
 
 
 ## Basic routes
@@ -72,7 +72,7 @@ Git commits are based on [Conventional Commits](https://www.conventionalcommits.
 ```
 
 - Type: `feat` | `fix` | `refactor` | `docs` | `chore` |...
-- JIRA ID: `myshoku-○○○○○`
+- JIRA ID: `myshoku-○○○○○` [TODO]
 - Description: `Commit message`
 - Body: `Commit description`
 
@@ -202,7 +202,7 @@ While searching works fairly well and also allows some freedom on location, func
   e. Add some form of monetization, e.g. via (transparent) result weighting
 
 4. Bugs
-While the project generally seems to work well without much issue or visual oddity, there are still some things related to Tailwind and React/NextJS that I don't sem to udnerstand, but would like to work through (tailwind styles applying unevenly to components in 3rd-level subdirectories, env variables not being picked up properly)
+While the project generally seems to work well without much issue or visual oddity, there are still some things related to Tailwind and React/NextJS that I don't seem to understand, but would like to work through (tailwind styles applying unevenly to components in 3rd-level subdirectories, env variables not being picked up properly, etc.)
 
 5. Improve UI/UX
-At the least, adding animations would make the app feel much more engaging and elss robotic. These were originally planned, but ultimately had to be bypassed for now.
+At the least, adding animations would make the app feel much more engaging and less robotic. These were originally planned, but ultimately had to be pushed back for now.
