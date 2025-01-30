@@ -13,7 +13,7 @@ Currently only the base link to the home page
 
 | View          | Pattern                                                   | Link                                                |
 | ------------- | --------------------------------------------------------- | --------------------------------------------------- |
-| SpashScreen   | `/home/`                                                  | http://localhost:{port}/home                        |
+| Homw          | `/home/`                                                  | http://localhost:{port}/home                        |
 
 
 ## Development
@@ -99,13 +99,16 @@ The project structure is inspired by the [vertical slice architecture](https://d
 ```
 ./src
 ├── __tests__         # Unit and acceptance tests (TODO)
+├── app               # Main component folder
+    ├── <page name>   # per Nextjs' new App-Router model (https://nextjs.org/docs/app)
+    ├── components    # core and base components used across multiple pages
+    ├── repositories  # API/3rd party-related scripts related to data 
+    └──layout.tsx     # Main component of the React/Next application
 ├── assets            # Project assets
+├── helpers           # Commonly used utility scripts
 ├── mocks             # API (REST & GraphQL) mocks via MSW  (TODO)
-├── <page name>       # per Nextjs' new App-Router model (https://nextjs.org/docs/app)
-    ├── home          # main restaurant search
-    └── ...           # etc.
+├── types             # Type defs for data outside the norm/web API
 ├── stories           # Storybook folder (TODO)
-├── layout.tsx        # Main component of the React/Next application
 ```
 
 ## React UI components
